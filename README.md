@@ -7,10 +7,12 @@
 
 ```sh
 sudo easy_install pip
-sudo easy_install pip
+
+sudo pip install --upgrade virtualenv
+
 virtualenv --system-site-packages -p python3 .
+
 pip3 install --upgrade tensorflow
-source ./bin/activate
 ```
 
 ## Start
